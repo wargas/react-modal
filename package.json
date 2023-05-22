@@ -1,21 +1,16 @@
 {
   "name": "@wargas/react-modal",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.4",
   "type": "module",
   "main": "./dist/react-modal.umd.cjs",
   "module": "./dist/react-modal.es.js",
   "types": "./dist/lib/index.d.ts",
-  "keywords": ["dialog", "modal"],
+  "keywords": ["dialog", "modal", "react"],
+  "license": "MIT",
   "author": {
     "name": "Wargas Teixeira",
     "email": "teixeira.wargas@gmail.com"
-  },
-  "exports": {
-    ".": {
-      "import": "./dist/react-modal.es.js",
-      "require": "./dist/react-modal.umd.cjs"
-    }
   },
   "scripts": {
     "dev": "vite",

@@ -1,10 +1,11 @@
 import "./App.css";
-import { ContainerModal, modal, useModal } from "../../dist/lib";
-import "../../package/dist/index.css";
+import { ContainerModal, modal, useModal } from "@wargas/react-modal";
+import "@wargas/react-modal/dist/index.css";
 
 function App() {
   async function openModal() {
-    modal(ModalTest, { title: "Modal Teste" });
+    
+    modal(ModalTest, { title: "Modal Teste", position: 'right', size: 'sm' });
   }
   return (
     <>
@@ -17,8 +18,7 @@ function App() {
 
 function ModalTest() {
   const {
-    close,
-    options: { data },
+    close
   } = useModal();
 
   return (
