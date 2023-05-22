@@ -1,0 +1,71 @@
+
+.modal-container {
+    @apply overflow-y-auto absolute inset-0;
+}
+
+.modal-backdrop {
+    @apply fixed transition-all duration-500 cursor-pointer inset-0 bg-black/30 opacity-0;
+}
+
+.modal-backdrop.show {
+    @apply opacity-100;
+}
+
+.modal-content {
+    @apply bg-white shadow-lg relative rounded w-full  duration-500 transition-all ;
+}
+
+.modal-content.sm {
+    max-width: 640px;
+} 
+.modal-content.md {
+    max-width:  768px;
+} 
+.modal-content.lg {
+    max-width: 1024px;
+} 
+.modal-content.xl {
+    max-width: 1280px;
+} 
+.modal-content.\2xl {
+    max-width: 1536px;
+} 
+
+.modal-content.full {
+    @apply absolute inset-0 m-0 rounded-none;
+} 
+
+.modal-content.center {
+    @apply mx-auto my-10 opacity-0 scale-0
+}
+
+.modal-content.right {
+    @apply absolute top-0 bottom-0 -right-[100%]  m-0 rounded-none scale-100 opacity-100;
+} 
+
+.modal-content.left {
+    @apply absolute top-0 bottom-0 -left-[100%]  m-0 rounded-none scale-100 opacity-100;
+} 
+
+.modal-content.center.show {
+    @apply opacity-100 scale-100;
+}
+
+.modal-content.left.show {
+    left: 0px;
+}
+
+.modal-header {
+    @apply p-4 border-b flex
+}
+
+.modal-content.right.show {
+    right: 0px;
+}
+
+.modal-title {
+    @apply font-bold text-lg flex-1
+}
+
+
+.modal-body { }
