@@ -9,3 +9,4 @@ tsconfig.node.json
 postcss.config.js
 vite.config.ts
 yarn.lock
+.eslintrc.cjs

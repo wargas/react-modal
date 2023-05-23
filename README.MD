@@ -66,7 +66,24 @@ $ yarn add @wargas/react-modal
 }
 ```
 
+The `modal` function returns a promise with the data passed in the close function within the `modal`, which can be used later by the caller.
 
+```tsx
+async function handleOpenAnyModal() {
+  const result = modal(AnyModal, {data: {}, title: 'Title'})
+  if(result) {
+    ...//do any with result
+  }
+}
+//OR
+async function handleOpenAnyModal() {
+  modal(AnyModal, {data: {}, title: 'Title'}).then(result => {
+    if(result) {
+      ...//do any with result
+    }
+  })
+}
+```
 
 ## Contribute
 
