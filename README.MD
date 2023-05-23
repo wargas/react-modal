@@ -14,6 +14,7 @@ $ npm install --save @wargas/react-modal
 $ yarn add @wargas/react-modal
 ```
 
+
 ## Features
 
 - Easy to set up for real, you can make it work in less than 10sec!
@@ -29,12 +30,13 @@ $ yarn add @wargas/react-modal
 
 ```jsx
   import React from 'react';
+  import FirstModal from './FirstModal'
 
   import { ContainerModal, modal } from '@wargas/react-modal';
   import '@wargas/react-modal/dist/index.css';
   
   function App(){
-    const open = () => modal(MyComponent, {title: 'My Title', size: 'sm', position:'center'});
+    const open = () => modal(FirstModal, {title: 'My Title', size: 'sm', position:'center'});
 
     return (
       <div>
@@ -44,6 +46,26 @@ $ yarn add @wargas/react-modal
     );
   }
 ```
+
+```jsx
+  export function FirstModal() {
+  const {
+    close,
+    setTitle,
+    setSize,
+    setPosition,
+    options: { data, title },
+  } = useModal();
+
+  return (
+    <div className="p-5">
+        ...
+    </div>
+  );
+}
+```
+
+
 
 ## Contribute
 
