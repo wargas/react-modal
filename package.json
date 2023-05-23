@@ -1,7 +1,7 @@
 {
   "name": "@wargas/react-modal",
   "private": false,
-  "version": "0.0.6",
+  "version": "0.0.7",
   "type": "module",
   "main": "./dist/react-modal.umd.cjs",
   "module": "./dist/react-modal.es.js",
@@ -16,6 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/wargas/react-modal.git"
   },
+  "homepage": "https://react-modal-wargas.vercel.app/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

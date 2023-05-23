@@ -564,10 +564,10 @@
     "@babel/plugin-transform-react-jsx-source" "^7.19.6"
     react-refresh "^0.14.0"
 
-"@wargas/react-modal@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@wargas/react-modal/-/react-modal-0.0.4.tgz#96772964a13d9808f213f422d209093e687b81c1"
-  integrity sha512-2JPnNGTQ/Mb93VugeHIRGieDFcLSawU2qKuIzM273RUSTNl7i0w9HUICRL5uyziyYqFcilhhpnmJ4GHHbWuRcg==
+"@wargas/react-modal@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@wargas/react-modal/-/react-modal-0.0.6.tgz#63cc74c126639c915c40b0cc236a4d1047e72756"
+  integrity sha512-xEyhSgR2P7rvMIeZ0fUHT3uo9PsRAQC7tG3ZwcKTqHiN2bWSDDHeAft8CJOI4KRJXLAg1QP9LtkjZHvdsgTqmw==
   dependencies:
     clsx "^1.2.1"
     eventemitter3 "^5.0.1"

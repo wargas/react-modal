@@ -1,5 +1,6 @@
 # React-Modal
 
+[![Financial Contributors on Open Collective](https://opencollective.com/react-modal/all/badge.svg?label=financial+contributors)](https://opencollective.com/react-modal) 
 ![npm](https://img.shields.io/npm/dm/@wargas/react-modal?label=%E2%8F%ACdownloads&style=for-the-badge)
 ![npm](https://img.shields.io/npm/v/@wargas/react-modal.svg?style=for-the-badge)
 ![NPM](https://img.shields.io/npm/l/@wargas/react-modal?label=%F0%9F%93%9Clicense&style=for-the-badge)

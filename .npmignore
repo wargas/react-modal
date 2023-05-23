@@ -1,3 +1,11 @@
 example
 public
 node_modules
+index.html
+src
+tailwind.config.js
+tsconfig.json
+tsconfig.node.json
+postcss.config.js
+vite.config.ts
+yarn.lock
