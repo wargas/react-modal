@@ -70,7 +70,7 @@ The `modal` function returns a promise with the data passed in the close functio
 
 ```tsx
 async function handleOpenAnyModal() {
-  const result = modal(AnyModal, {data: {}, title: 'Title'})
+  const result = await modal(AnyModal, {data: {}, title: 'Title'})
   if(result) {
     ...//do any with result
   }
