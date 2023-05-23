@@ -66,7 +66,7 @@ $ yarn add @wargas/react-modal
 }
 ```
 
-The `modal` function returns a promise with the data passed in the close function within the `modal`, which can be used later by the caller.
+The `modal` function returns a promise with the data passed in the close function within the `close`, which can be used later by the caller.
 
 ```tsx
 async function handleOpenAnyModal() {
